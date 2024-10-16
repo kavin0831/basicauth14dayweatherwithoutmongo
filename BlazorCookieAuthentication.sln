@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCookieAuthentication", "BlazorCookieAuthentication.csproj", "{9BC08FB0-C5E2-4164-8C51-5E432680F913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC08FB0-C5E2-4164-8C51-5E432680F913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC08FB0-C5E2-4164-8C51-5E432680F913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC08FB0-C5E2-4164-8C51-5E432680F913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC08FB0-C5E2-4164-8C51-5E432680F913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D9477F-AD76-46E9-AD8A-E337A27751E6}
+	EndGlobalSection
+EndGlobal

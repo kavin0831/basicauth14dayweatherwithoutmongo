@@ -1,0 +1,195 @@
+﻿@page "/weather"
+@attribute [CustomAuthorize( UserRole.Anonymous | UserRole.Standard | UserRole.Administrator)]
+@inject HttpClient Http
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+
+<h3> 14 - Day Weather Forecast</h3>
+
+<div class="input-container">
+    <input @bind="cityName" placeholder="Enter city name" />
+    <button @onclick="GetWeatherData">Get Weather</button>
+</div>
+
+@if (weatherData != null)
+
+{
+    <div class="location-info">
+        <h4>Location: @weatherData.ResolvedAddress</h4>
+        <p>Latitude: @weatherData.Latitude, Longitude: @weatherData.Longitude</p>
+        <p>Description: @weatherData.Description</p>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Condition</th>
+                <th>Average Temp (°C)</th>
+                <th>Humidity (%)</th>
+                <th>Wind Speed (kph)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var day in weatherData.Days)
+
+            {
+                <tr>
+                    <td>@day.Datetime</td>
+                    <td>@day.Description</td>
+                    <td>@day.Temp</td>
+                    <td>@day.Humidity</td>
+                    <td>@day.Windspeed</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+else if (!string.IsNullOrEmpty(cityName))
+
+{
+    <p>Loading weather data for @cityName...</p>
+}
+
+<style>
+    .input-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    .location-info {
+        margin: 15px 0;
+        font-style: italic;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .table th, .table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+</style>
+
+@code {
+    private WeatherForecast weatherData;
+
+    private string cityName = string.Empty;
+
+
+
+    private async Task GetWeatherData()
+
+    {
+
+        if (!string.IsNullOrWhiteSpace(cityName))
+
+        {
+
+            try
+
+            {
+
+                var url = $"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{cityName}?key=RVLL3TKWVVUBGTHVYP6MXWAB8";
+
+                weatherData = await Http.GetFromJsonAsync<WeatherForecast>(url);
+
+                await LogWeatherData();
+
+            }
+
+            catch (Exception ex)
+
+            {
+
+                Console.WriteLine($"Error fetching weather data: {ex.Message}");
+
+            }
+
+        }
+
+    }
+
+
+
+    private async Task LogWeatherData()
+
+    {
+
+        if (weatherData != null)
+
+        {
+
+            var json = System.Text.Json.JsonSerializer.Serialize(weatherData);
+
+            await JS.InvokeVoidAsync("console.log", json);
+
+        }
+
+    }
+
+
+
+    public class WeatherForecast
+
+    {
+
+        public double Latitude { get; set; }
+
+        public double Longitude { get; set; }
+
+        public string ResolvedAddress { get; set; }
+
+        public string Description { get; set; }
+
+        public List<Day> Days { get; set; }
+
+    }
+
+
+
+    public class Day
+
+    {
+
+        public string Datetime { get; set; }
+
+        public string Description { get; set; }
+
+        public double Temp { get; set; }
+
+        public double Humidity { get; set; }
+
+        public double Windspeed { get; set; }
+
+    }
+}

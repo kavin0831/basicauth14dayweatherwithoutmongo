@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uy8V4bmZdRo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\BlazorCookieAuthentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\appuk\\.nuget\\packages\\isopoh.cryptography.argon2\\2.0.0\\isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "C:\\Users\\appuk\\.nuget\\packages\\isopoh.cryptography.blake2b\\2.0.0\\isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "C:\\Users\\appuk\\.nuget\\packages\\isopoh.cryptography.securearray\\2.0.0\\isopoh.cryptography.securearray.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

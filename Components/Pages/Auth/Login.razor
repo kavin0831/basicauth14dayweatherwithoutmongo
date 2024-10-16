@@ -1,0 +1,61 @@
+@page "/login"
+@inherits UserContext
+
+<AuthorizeView>
+    <Authorized>
+        @{
+            AutoNavigate();
+        }
+    </Authorized>
+    <Authorizing>
+        <div>
+            <h2>Please Wait...</h2>
+        </div>
+    </Authorizing>
+    <NotAuthorized>
+        <div class="form-signin m-auto" style="width: 20rem; background-color: transparent;">
+        <form @onsubmit="LoginButtonPressed">
+            <center>
+                <h1 class="h3 mb-3 fw-normal" style="color: black">Please sign in</h1>
+            </center>
+
+            <div class="form-floating" style="padding: 5px">
+                <input type="text" class="form-control" @bind-value="@Username" />
+                <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating" style="padding: 5px">
+                <input type="password" class="form-control" @bind-value="@Password" />
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        </form>
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code{
+
+    [SupplyParameterFromQuery(Name="ReturnUrl")]
+    public string ReturnUrlPath {get; set;} = ""; 
+
+    public string Username { get; set; } = "";
+
+    public string Password { get; set; } = "";
+
+    public void AutoNavigate()
+    {
+        if (string.IsNullOrEmpty(ReturnUrlPath)){
+            NavTo("/");
+        }else{
+            NavTo(ReturnUrlPath);
+        }
+    }
+
+    public async void LoginButtonPressed()
+    {
+        if (await Login(Username, Password))
+        {
+            AutoNavigate();
+        }
+    }
+}

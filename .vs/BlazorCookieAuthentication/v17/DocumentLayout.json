@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\components\\pages\\samples\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:components\\pages\\samples\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\components\\pages\\samples\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:components\\pages\\samples\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\services\\fakedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:services\\fakedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\services\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:services\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\services\\authenticationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:services\\authenticationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:interfaces\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\components\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:components\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|c:\\users\\appuk\\source\\repos\\blazorcookieauthentication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BC08FB0-C5E2-4164-8C51-5E432680F913}|BlazorCookieAuthentication.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Samples\\Weather.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Samples\\Weather.razor",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Samples\\Weather.razor",
+              "RelativeToolTip": "Components\\Pages\\Samples\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T12:35:51.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Samples\\Counter.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Samples\\Counter.razor",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Samples\\Counter.razor",
+              "RelativeToolTip": "Components\\Pages\\Samples\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T12:35:47.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Auth\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Auth\\Login.razor",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Components\\Pages\\Auth\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Auth\\Login.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T12:35:37.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Interfaces\\IDatabase.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDatabase.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Interfaces\\IDatabase.cs",
+              "RelativeToolTip": "Interfaces\\IDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:30:30.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "Models\\UserInfo.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Models\\UserInfo.cs",
+              "RelativeToolTip": "Models\\UserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:30:20.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FakeDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\FakeDatabase.cs",
+              "RelativeDocumentMoniker": "Services\\FakeDatabase.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\FakeDatabase.cs",
+              "RelativeToolTip": "Services\\FakeDatabase.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:30:06.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\CustomAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Services\\CustomAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\CustomAuthorizeAttribute.cs",
+              "RelativeToolTip": "Services\\CustomAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:30:03.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationProvider.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\AuthenticationProvider.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationProvider.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Services\\AuthenticationProvider.cs",
+              "RelativeToolTip": "Services\\AuthenticationProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:29:55.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T12:29:51.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T12:29:49.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\appuk\\source\\repos\\BlazorCookieAuthentication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:29:40.339Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Alif Aditya Wicaksono",
+    "classifications": [ "Web", "Blazor", "Blazor Server" ],
+    "identity": "Alif.BlazorTemplate.Cookie",
+    "name": "Blazor Server Cookie Based Auth",
+    "shortName": "blazorcookie",
+    "sourceName":"BlazorCookieAuthentication",
+    "preferNameDirectory": true,
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
