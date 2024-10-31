@@ -119,7 +119,7 @@ else if (!string.IsNullOrEmpty(cityName))
 
             {
 
-                var url = $"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{cityName}?key=RVLL3TKWVVUBGTHVYP6MXWAB8";
+                var url = $"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{cityName}?key=s";
 
                 weatherData = await Http.GetFromJsonAsync<WeatherForecast>(url);
 
